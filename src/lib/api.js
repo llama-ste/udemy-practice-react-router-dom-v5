@@ -1,5 +1,4 @@
-const FIREBASE_DOMAIN =
-  "https://great-quotes-f2841-default-rtdb.firebaseio.com";
+const FIREBASE_DOMAIN = "https://#.firebaseio.com";
 
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
